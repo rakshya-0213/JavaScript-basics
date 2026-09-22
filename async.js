@@ -1,19 +1,19 @@
 
-// // Async/Await:reads top to bottom
+// Async/Await:reads top to bottom
 
-// async function run(){
-// const user= await Promise.resolve({id:1, name:'rakshya', });
-
-
-// console.log(user);
-// const oders= await Promise.resolve(['order1', 'order2']);
-// console.log(oders);
+async function run(){
+const user= await Promise.resolve({id:1, name:'rakshya', });
 
 
-// return oders.length;
+console.log(user);
+const oders= await Promise.resolve(['order1', 'order2']);
+console.log(oders);
 
-// }
-// run().then(result=> console.log(result));
+
+return oders.length;
+
+}
+run().then(result=> console.log(result));
 
 
 
