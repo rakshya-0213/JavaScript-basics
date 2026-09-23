@@ -18,3 +18,5 @@ function divide(a,b){
 
 divide(10,2);
 divide(10,0);
+
+
